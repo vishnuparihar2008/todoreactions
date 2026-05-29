@@ -1,3 +1,5 @@
+import './compStyles/ToDoElements.css'
+
 function ToDoElements() {
     return (
         <div className="todoelements">

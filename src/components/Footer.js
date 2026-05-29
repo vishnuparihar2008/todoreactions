@@ -1,3 +1,5 @@
+import './compStyles/Footer.css'
+
 function Footer() {
     return (
         <div className="footer">
