@@ -1,0 +1,10 @@
+.todo {
+    background-color: #EDB49B;
+    height: auto;
+    width: 70%;
+    color: #DDDCDB;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}

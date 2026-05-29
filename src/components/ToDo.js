@@ -1,11 +1,21 @@
 import ToDoElements from "./ToDoElements";
-import './compStyles/ToDo.css'
+import "./compStyles/ToDo.css";
 
 function ToDo() {
     return (
         <div className="todo">
-            <h1>Hello, ToDo!</h1>
-            <ToDoElements />
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">S.No.</th>
+                        <th scope="col">Task</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Assigned</th>
+                        <th scope="col">Complete by</th>
+                    </tr>
+                </thead>
+                <ToDoElements />
+            </table>
         </div>
     );
 }
