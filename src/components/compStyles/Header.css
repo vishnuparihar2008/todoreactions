@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    background-color: #3C4044;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #DDDCDB;
+}
+
+.header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    background-color: transparent;
+    letter-spacing: 0.6em;
+}
+
+.header img {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60%;
+    background-color: transparent;
+}
+
+.dropdown {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
